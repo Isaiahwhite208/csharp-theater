@@ -1,11 +1,12 @@
-namespace ConsoleTheater.Modals
+namespace ConsoleTheater.Models
 {
- public class Movie
- {
-  public string Title { get; set; }
-  public Movie(string title)
+  public class Movie
   {
-   Title = title;
+    public string Title { get; set; }
+
+    public Movie(string title)
+    {
+      Title = title;
+    }
   }
- }
 }
