@@ -19,7 +19,7 @@ namespace ConsoleTheater.Modals
 
   public void PrintName()
   {
-   System.Console.WriteLine($"Purchase of {Ticket} for {Price}");
+   System.Console.WriteLine($"Purchase of {Type} for {Price}");
   }
  }
 }
